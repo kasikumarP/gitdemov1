@@ -122,6 +122,7 @@ public class LoginPageTest2 extends TestBaseClass {
 	public void tearDown(){
 		extent.flush();
 		driver.quit();
+		driver.quit();
 	}
 	
 
